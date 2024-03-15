@@ -15,11 +15,11 @@
 #
 
 # Inherit some common lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_tv.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_tv.mk)
 
 # Inherit device configuration for sif.
 include device/nvidia/foster/lineage.mk
 $(call inherit-product, device/nvidia/sif/full_sif.mk)
 
-PRODUCT_NAME := lineage_sif
+PRODUCT_NAME := lmodroid_sif
 PRODUCT_DEVICE := sif

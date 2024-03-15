@@ -1,0 +1,6 @@
+[
+  {
+    "repository": "LMODroid-Devices/device_nvidia_foster",
+    "target_path": "device/nvidia/foster"
+  }
+]
